@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- favicon -->
+            <link rel="icon" sizes="16x16" href="assets/img/favicon.png">
+    
+            <!--  Main CSS  -->
+            <link rel="stylesheet" href="css/main.css">
+        
+            <!-- Font Google -->
+            <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+            
+              
+        <!-- Font-Awesome -->
+        <script src="https://kit.fontawesome.com/2ea8648b87.js" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+
+</head>
+<body>
+    <!--Menu-->
+    <div class="main-menu fixed-top main-menu-left">
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li>
+                    <a href="index.html" >Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="services.html" >Services</a>
+                </li>                
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--hamburger-menu-->
+        <a class="hamburger-menu js-toggle-menu " href="#">
+            <div class="g-lines">
+                <span class="line line-dark"></span>
+                <span class="line line-dark"></span>
+                <span class="line line-dark"></span>
+            </div>
+        </a>
+    </div>
+    
+        <!--Servives section-->
+        <div class="contactArea">
+            <div class="contactItems">
+                <div class="contactItems-title">
+                    <!--Section title-->
+                <div class="section-heading">
+                    <p class="section-description bg-base-color">Feel free to conatct me</p>
+                    <h2 class="section-title"> Contact Me</h2>
+                </div>
+                </div>
+            <div class="contact-subarea1 ">
+                <div class="contact-sub1">
+                    <!--phone-->
+                <div class="contact-item ">
+                    <p><i class="fab fa-whatsapp base-color"></i> Phone: </p>
+                    <p><a href="tel:+91234567891">+9 (123)-456-78-91</a></p>
+                </div>
+                </div>
+                <div class="contact-sub2">
+                    <!--Email-->
+                <div class="contact-item">
+                    <p><i class="fas fa-envelope base-color"></i> Email: </p>
+                    <p> <a href="mailto:elizabeth.elmiz@gmail.com">gubbala.525@gmail.com </a></p>
+                </div>
+                </div>
+                <div class="contact-sub3">
+                    <!--Adress-->
+                <div class="contact-item">
+                    <p><i class="fas fa-map-marker-alt base-color"></i> Adress: </p>
+                    <p>Hyderabad City, USA</p>
+                </div>
+                </div>  
+                <div class="contact-sub4">
+                    <!--social-icons-->
+                <div class="contact-item">
+                    <p><i class="fas fa-share-alt base-color"></i>Socials media: </p>
+                    <ul class="social-icons list-inline">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+                </div>                       
+            </div>
+
+            <div class="contact-subarea2">
+                <div class="contact-sub1 wow customFadeInUp slow">
+                    <form action="assets/php/mail.php" class="contact_form" method="POST" id="main_contact_form">
+                        <div class="alert alert-success contact_msg" style="display: none" role="alert">
+                            Your message was sent successfully.
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="required">
+                        </div>
+                            
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
+                        </div>
+                            
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="required">
+                        </div>
+                            
+                        <div class="form-group">
+                            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Message" required="required"></textarea>
+                        </div>
+                            
+                        <button type="submit" name="submit" class="btn-custom">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-sub2 wow customFadeInUp delay-0-4s slow">
+                    <div class="google-map mb-30">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.220288603519!2d78.38075651486075!3d17.44916740561321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915de4823e2d%3A0x9a808cad2b02f7f0!2sHitech%20City%20Rd%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1614751983628!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            </div>   
+        </div>
+    
+    
+        <!--loading -->
+        <div class="loading">
+            <div class="circle"></div>
+        </div>
+
+        <!-- jQuery, JS files -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
